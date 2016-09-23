@@ -86,7 +86,7 @@ if __name__ == '__main__':
                   [0, 1],
                   [1, 0],
                   [1, 1]])
-    y = np.array([1, 1, 1, 0])
+    y = np.array([0, 1, 1, 0])
     nn.fit(X, y)
     for e in X:
         print(e,nn.predict(e))
